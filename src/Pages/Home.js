@@ -8,6 +8,7 @@ import Achievements from '../Components/Home/Achievements'
 import Testimonials from '../Components/Home/Testimonials'
 import Partner from '../Components/Home/Partner';
 import Blog from '../Components/Home/Blog';
+import Footer from '../Components/Footer';
 
 
 export const Home = () => {
@@ -145,6 +146,9 @@ export const Home = () => {
          </div>
          <div>
           <Blog/>
+         </div>
+         <div>
+          <Footer/>
          </div>
               
 
