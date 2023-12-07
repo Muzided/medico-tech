@@ -6,6 +6,9 @@ import img from '../Assets/Home/doctor.jpg';
 import Services from '../Components/Home/Services';
 import Achievements from '../Components/Home/Achievements'
 import Testimonials from '../Components/Home/Testimonials'
+import Partner from '../Components/Home/Partner';
+import Blog from '../Components/Home/Blog';
+
 
 export const Home = () => {
   return (
@@ -131,11 +134,17 @@ export const Home = () => {
          <Services/>
          
          </div>
-         <div className='pb-8'>
+         <div className='md:pb-8'>
          <Achievements/>
          </div>
          <div>
           <Testimonials/>
+         </div>
+         <div>
+          <Partner/>
+         </div>
+         <div>
+          <Blog/>
          </div>
               
 

@@ -14,6 +14,7 @@ module.exports = {
       "img" : "url('../src/Assets/Home/doc.jpg') ",
       "mem1" : "url('../src/Assets/Home/memphis1.png') ",
       "mem2" : "url('../src/Assets/Home/Memphis2.png') ",
+      "mem4" : "url('../src/Assets/Home/Memphis4.png') ",
       "doc" : "url('../src/Assets/Home/doctor.jpg') ",
       "doc2" : "url('../src/Assets/Home/doc2.png') ",
       "mem3" : "url('../src/Assets/Home/memphis3.png') ",
