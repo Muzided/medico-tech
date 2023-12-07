@@ -19,7 +19,8 @@ module.exports = {
       "doc2" : "url('../src/Assets/Home/doc2.png') ",
       "mem3" : "url('../src/Assets/Home/memphis3.png') ",
       "img1" : "url('../src/Assets/Home/picture.png') ",
-      'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))'
+      "img2" : "url('../src/Assets/Home/logo.png') ",
+      'grad,ient-radial': 'radial-gradient(var(--tw-gradient-stops))'
     }
    
   },

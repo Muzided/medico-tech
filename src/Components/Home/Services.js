@@ -16,8 +16,8 @@ const Services = () => {
                      <h1 className=' text-2xl md:text-6xl text-white text-center font-bold pb-4'> Special Services  </h1>
 
                      <div className='flex md:flex-row flex-col gap-6 w-4/5 justify-center'>
-                    
-           <div className='  hover:bg-[#44CA7C] text-[#0C5A23]  hover:text-white bg-white flex flex-col gap-4   items-center shadow-lg  rounded-lg md:p-10  py-8  px-8'>
+                    hover:bg-[#44CA7C]
+           <div className='   text-[#0C5A23]  hover:text-white bg-white flex flex-col gap-4   items-center shadow-lg  rounded-lg md:p-10  py-8  px-8'>
            
            <TbMedicineSyrup   size={72} />
          
