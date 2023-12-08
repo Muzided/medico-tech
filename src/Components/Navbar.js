@@ -68,7 +68,7 @@ const Navbar = () => {
   </div>
   {menu2? <Menu2 className="" />:null}
   </div>   
-   <h1 className='text-cGreen font-bold text-sm tracking-wider  hover:text-[#21C063]  border-white border-b-2 hover:border-[#21C063] cursor-pointer py-4'> Contact </h1>
+   <h1 className='text-cGreen font-bold text-sm tracking-wider  hover:text-[#21C063]  border-white border-b-2 hover:border-[#21C063] cursor-pointer py-4'><a href='/contact'>Contact </a> </h1>
  <div  onMouseEnter={handleMenu3}  onMouseLeave={handleMenu3} className='flex-col  space-y-5'>
  <div  className=' flex items-center gap-2  text-cGreen hover:text-[#21C063]  border-white border-b-2 hover:border-[#21C063]' >
   <h1 className=' font-bold text-sm tracking-wider  cursor-pointer py-4'>Page</h1>

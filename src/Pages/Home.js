@@ -144,7 +144,7 @@ export const Home = () => {
          <div>
           <Partner/>
          </div>
-         <div>
+         <div className='pb-14 md:pb-0'>
           <Blog/>
          </div>
          <div>
