@@ -52,7 +52,7 @@ const Navbar = () => {
             
 
 <div className='flex gap-10 items-center'>
-            <h1 className='text-cGreen font-bold text-sm tracking-wider  hover:text-[#21C063]  border-white border-b-2 hover:border-[#21C063] cursor-pointer py-4'> Home </h1>
+            <h1 className='text-cGreen font-bold text-sm tracking-wider  hover:text-[#21C063]  border-white border-b-2 hover:border-[#21C063] cursor-pointer py-4'><a href='/'> Home</a> </h1>
     <div onMouseEnter={handleMenu1} onMouseLeave={handleMenu1}  className='flex-col  space-y-5'>   
    <div  className=' flex items-center gap-2 text-cGreen hover:text-[#21C063] border-white border-b-2 hover:border-[#21C063]' >
     <h1  className=' font-bold text-sm tracking-wider   cursor-pointer py-4'>About Us</h1>
