@@ -6,19 +6,18 @@ import { FaYoutube } from "react-icons/fa";
 import img from '../../Assets/Home/Bus2.jpg'
 const Connect = () => {
   return (
-    <div className=' md:bg-img4 flex justify-center '>
+    <div className=' lg:bg-img4 flex justify-center '>
     <div className=''>
-    <img src={img} className='md:hidden h-[404px]' />
-       <div className=' pl-24  py-10 md:pl-44 md:pb-20 md:pt-96'> 
+    <img src={img} className='w-fit lg:hidden h-fit' />
+       <div className=' py-10 justify-center lg:pb-20 flex'> 
        <div className=' w-4/5'>
-          <div className=' pl flex px-10 flex-col md:flex-row bg-white rounded-lg   shadow-lg overflow-hidden'>
+          <div className=' pl flex px-10 flex-col lg:flex-row bg-white rounded-lg   shadow-lg overflow-hidden'>
             
-             <div className=' md:pl-12 md:pr-0 md:py-12 md:w-3/5 '>
+             <div className=' lg:pl-12 lg:pr-0 md:py-12 lg:w-3/5 '>
                 <h2 className=' text-lg tracking-wider font-bold text-[#08485E] mb-4'> FORM CONTACT </h2>
                 <p className='pb-4 text-5xl font-bold    tracking-wide text-black/80'> Let's Talk To Us </p>
-                <p className='text-[#88DDAB] pb-6'><span className=' text-[#189649] text-lg '>________</span>_______________________________________________________</p>
-
-
+                <hr className=' py-2  lg:w-9/12 sm:w-9/12 md:w-7/12  border-t-2 border-[#44CA7C]   '/>
+      
                 <form>
                     <div className='flex md:flex-row flex-col gap-5  '>
                     <div className='md:w-1/2 '>

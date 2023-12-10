@@ -36,12 +36,12 @@ const Partner = () => {
 
     ]
   return (  
-    <div className='pb-20 pt-12'>
-    <div className='flex justify-center flex-col'>
+    <div className='pb-20 pt-12  '>
+    <div className=''>
         <h1 className='text-[#08485E] text-center font-bold pb-3 text-sm md:text-lg tracking-widest'> PARTNER</h1>
         <h1 className='text-center text-2xl md:text-6xl font-bold pb-10'> Awesome Partner</h1>
        
-        <div className='  md:hidden'>
+        <div className=' overflow-hidden  md:hidden'>
         <Slider {...settings2}>
             {data.map((item)=>(
                

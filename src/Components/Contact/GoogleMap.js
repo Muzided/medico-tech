@@ -5,8 +5,8 @@ import { FaPhoneAlt } from "react-icons/fa";
 const GoogleMap = () => {
   return (
     <div className='bg-mem5 bg-no-repeat'>
-        <div className='md:justify-center flex md:pt-20 pb-6 md:pb-10 px-2 md:pl-96'>
-        <div className='flex md:px-12 md:py-12 px-4 pb-8 pt-16  md:w-2/5 bg-white shadow-lg flex-col'>
+        <div className='lg:justify-center flex lg:pt-20 pb-6 md:pb-10 px-2 lg:pl-48'>
+        <div className='flex lg:px-12 lg:py-12 px-4 pb-8 pt-16  lg:w-2/5 bg-white shadow-lg flex-col'>
              <h1  className='text-sm md:text-lg tracking-wider font-bold text-[#08485E] pb-2 md:pb-4'> BRANCH</h1>
              <h1 className='pb-2 text-2xl md:text-6xl font-bold    tracking-wide text-black/80'>
                 Get in Direction

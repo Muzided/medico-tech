@@ -18,14 +18,16 @@ const Blog = () => {
 
     ]
   return (
-    <div className=' bg-mem4 min-h-screen bg-no-repeat'>
+    <div className='pt-20 bg-mem4 min-h-screen bg-no-repeat'>
         <div className='bg-white/40 min-h-screen px-2 md:px-44'> 
         <div>
         
-         <div className='flex items-center  md:'>
-         <h1 className=' pb-4 md:w-2/3  w-3/5  text-lg tracking-widest font-bold text-[#08485E] '> EDITOR'S CHOICE </h1>
-        <p className='  -mt-7  w-5/6 hidden  md:block  text-[#44CA7C]'>____________________________________________________________________________________________________________________________________________________-</p>
-        <p className='  -mt-7      md:hidden w-2/3  text-[#44CA7C]'>________________________________</p>
+         <div className='flex items-center  w-full  '>
+         <h1 className=' pb-4 lg:w-2/12 sm:w-3/12 md:w-5/12 text-lg tracking-normal md:tracking-widest font-bold  text-[#08485E] '> EDITOR'S CHOICE </h1>
+        
+        <hr className=' -mt-3  lg:w-9/12 sm:w-9/12 md:w-7/12  border-t-2 border-[#44CA7C]   '/>
+      
+        
         
          </div>
 
@@ -34,7 +36,7 @@ const Blog = () => {
               <div className='flex'>
                      
                      
-                     <div className='flex md:flex-row flex-col gap-8 md:gap-6'>
+                     <div className='flex lg:flex-row flex-col gap-8 lg:gap-6'>
                             {
                                 data.map((item)=>(
                                     <div className='bg-white hover:shadow-2xl shadow-lg rounded-lg '>

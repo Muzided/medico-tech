@@ -39,13 +39,13 @@ const Testimonials = () => {
   return (
     
     <div className=' md:h-[150vh] md:bg-doc2 md:bg-cover   '>
-<div className='md:h-[150vh] bg-white/20  md:items-center flex-col md:flex-row md:pt-56 pt-24 md:px-32  flex '>
+<div className='md:h-[150vh] bg-white/20  lg:items-center flex-col md:flex-row md:pt-56 pt-24 md:px-32  flex '>
 <img src={doc2} className=' md:hidden'/>
-<div className='flex flex-col   md:px-8 md:py-10 pt-5 rounded-lg bg-white '>
+<div className='flex flex-col   md:px-8 lg:py-10 pt-5 rounded-lg bg-white '>
               <h1 className=' text-[#08485E] text-center font-bold pb-3 text-sm md:text-md '>TESTIMONIALS</h1>
               <h1 className='text-center text-2xl md:text-6xl font-bold '>What they say</h1>
              
-              <div className='md:hidden'>
+              <div className='md:hidden overflow-x-hidden'>
               <Slider {...settings}>
               {
   data.map((item)=>(

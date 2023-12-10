@@ -6,11 +6,11 @@ import Map from '../Components/Contact/GoogleMap'
 
 const Contact = () => {
   return (
-    <div cl>
+    <div className='mx-0'>
     <Herosection/>
     <Map/>
     <Connect/>
-    <Footer/>
+   
     </div>
   )
 }

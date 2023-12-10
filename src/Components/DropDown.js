@@ -16,7 +16,7 @@ const DropDown = () => {
   return (
     <div className='flex border-t-2  border-black/10  '>
   <div className='flex flex-col py-2    px-4 gap-8'>
-  <h1 className='text-cGreen font-bold text-sm'>Home </h1>
+  <h1 className='text-cGreen font-bold text-sm'><a href='/'>Home</a> </h1>
   <div className=' flex items-center gap-2' onClick={handleMenu1}>
   <h1 className='text-cGreen font-bold text-sm'>About Us</h1>
   <FaCaretDown color="green" />
@@ -27,7 +27,7 @@ const DropDown = () => {
   <FaCaretDown  color="green"/>
   </div>
   {  menu2? <Menu2/> : null}
-  <h1 className='text-cGreen font-bold text-sm'>Contact</h1>
+  <h1 className='text-cGreen font-bold text-sm'><a href='/contact'>Contact</a></h1>
   <div className=' flex items-center gap-2' onClick={handleMenu3}>
   <h1 className='text-cGreen font-bold text-sm'>Page</h1>
   <FaCaretDown color="green" />

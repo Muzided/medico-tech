@@ -26,13 +26,13 @@ const Footer = () => {
   return (
     <div>
  <div className=' bg-[#0C5C24]  '>
-
-<div className='bg-mem3 flex justify-center pb-10  bg-no-repeat '>
+    
+<div className='bg-mem3 flex justify-center pb-10   bg-no-repeat '>
     <div>
-        <h1 className='text-2xl md:text-5xl md:pt-32 pt-10  md:tracking-wider text-white font-bold text-center'> Get in Touch With Us.</h1>
-        <p className='text-center text-xs px-12 md:pb-12 md:text-lg font-semibold text-white pt-4'>Metus class pulvinar blandit nec sodales posuere amet odio aptent</p>
-        <div className='flex flex-col px-8 md:pb-12 md:px-0 md:flex-row pt-10 gap-12 '>
-            <div className='bg-white flex-col md:flex-row items-center  flex rounded-lg  py-8 md:pr-20 md:h-44'>
+        <h1 className='text-2xl md:text-5xl lg:pt-32 pt-10  md:tracking-wider text-white font-bold text-center'> Get in Touch With Us.</h1>
+        <p className='text-center text-xs px-12 lg:pb-12 md:text-lg font-semibold text-white pt-4'>Metus class pulvinar blandit nec sodales posuere amet odio aptent</p>
+        <div className='flex flex-col px-8 lg:pb-12 md:px-0 lg:flex-row pt-10 llg:min-gap-10 gap-12 '>
+            <div className=' flex-col lg:flex-row items-center  flex rounded-lg  py-8 lg:pr-20 bg-white lg:min-w-xl lg:h-44'>
            
             <div className='px-4'>
             <div className= 'hover:scale-110  duration-300 transition-transform  text-white  hover:bg-[#229631] w-24  flex justify-center h-24 rounded-full pt-2 bg-[#0C5A23] '>
@@ -40,9 +40,9 @@ const Footer = () => {
             </div>
             </div>
 
-            <div className='flex items-center pt-4 md:pt-0 flex-col '>
+            <div className='flex items-center pt-4  flex-col '>
              <h1 className='text-2xl pb-4 text-[#0C5A23] font-bold ' > Head Office</h1>
-             <div className='flex md:flex-col'>
+             <div className='flex lg:flex-col'>
              <p> Islamabad DHA</p>
              <p> 22 - Khyber 1D</p>
              </div>
@@ -52,7 +52,7 @@ const Footer = () => {
             
 
             </div>
-            <div className='bg-white flex-col md:flex-row items-center  flex rounded-lg  py-8 md:pr-20 md:h-44'>
+            <div className='bg-white flex-col lg:flex-row items-center lg:min-w   flex rounded-lg  py-8 lg:pr-10 lg:h-44'>
             <div className='px-4'>
             <div className=  'hover:scale-110  duration-300 transition-transform  text-white  hover:bg-[#229631] w-24  flex justify-center h-24 rounded-full pt-4 bg-[#0C5A23] '>
             <IoMdMail color='white' size={64}/>
@@ -60,7 +60,7 @@ const Footer = () => {
             </div>
             
           
-            <div className='flex items-center pt-4 md:pt-0 flex-col '>
+            <div className='flex items-center pt-4  flex-col '>
              <h1 className='text-2xl pb-4 font-bold text-[#0C5A23] ' > Email Us</h1>
             
              <p> dummyemail@gmail.com</p>
@@ -72,13 +72,13 @@ const Footer = () => {
             
 
             </div>
-            <div className='bg-white flex-col md:flex-row items-center  flex rounded-lg  py-8 md:pr-20 md:h-44'>
+            <div className='bg-white flex-col lg:flex-row items-center lg:min-w   flex rounded-lg  py-8 lg:pr-16 lg:h-44'>
             <div className='px-4'>
             <div className= ' hover:scale-110  duration-300 transition-transform  text-white  hover:bg-[#229631] w-24 flex justify-center  h-24 rounded-full pt-4 bg-[#0C5A23] '>
             <FaPhoneAlt  size={56}/>
             </div>
             </div>
-            <div className='flex items-center pt-4 md:pt-0 flex-col '>
+            <div className='flex items-center pt-4 flex-col '>
              <h1 className='text-2xl pb-4 text-[#0C5A23] font-bold' > Call Us</h1>
              <p> 11223344556677</p>
              <p> 88776611223344</p>
@@ -94,7 +94,7 @@ const Footer = () => {
 
 
 </div>
-<div className='flex bg-white md:justify-center p-2 md:p-6'>
+<div className='flex bg-white justify-center p-2 md:p-6'>
          <div className=' shadow-2xl rounded-xl bg-img2 -bg-cover md:w-4/6  pt-16 p-8 md:p-20 flex flex-col'>
          <h1 className='text-2xl md:text-5xl font-bold  text-white text-center  '> Sign Up For Our Newsletter.</h1>
          <p className='text-center pt-4 pb-6 font-bold text-sm md:text-lg text-white'> Get Weekly Updates on the latest news in Medical Services</p>
@@ -110,7 +110,7 @@ const Footer = () => {
          </div>
 </div>
 
-<div className='bg-white '>
+<div className=''>
 <div className=' flex gap-2 justify-center pt-10 items-center'>
 <MdOutlineHealthAndSafety color='green' size={44}/>
 <h1 className=' font-bold text-2xl'>
@@ -119,21 +119,23 @@ const Footer = () => {
 </div>
 <h1 className='md:text-lg font-bold text-center text-[#08485E] md:pl-12 tracking-widest pt-2'>MEDICAL SERVICE AND CLINIC</h1>
 </div>
-<div className='flex justify-center gap-10 bg-white  text-[#229631] py-6'>
+<div className='flex  justify-center gap-10 bg-white  text-[#229631] py-6'>
 <FaFacebook size={32}  className='cursor-pointer hover:text-[#37A045]'/>
 <FaTwitter  size={32} className='cursor-pointer hover:text-[#37A045]'/>
 <FaInstagram  size={32} className='cursor-pointer hover:text-[#37A045]'/>
 </div>
-<div className='bg-white flex md:justify-center justify-evenly py-6 md:gap-12 text-[#229631] '>
+<div className=' flex md:justify-center justify-evenly  md:gap-12 text-[#229631] '>
        <h1 className='text-cGreen font-bold text-xs md:text-sm tracking-wider  hover:text-[#21C063]  cursor-pointer py-4'>Home</h1>
        <div onMouseEnter={handleMenu1} onMouseLeave={handleMenu1}  className='flex-col  space-y-5'>   
 <div  className=' flex  items-center text-xs md:text-sm gap-2 text-cGreen hover:text-[#21C063]' >
 <h1  className=' font-bold text-xs md:text-sm tracking-wider   cursor-pointer py-4'>About Us</h1>
 <FaCaretDown  />
+
+</div>
+{menu1? <Menu1 className="" />:null}
+
 </div>
 
-{menu1? <Menu1 className="" />:null}
-</div>
 <div   onMouseEnter={handleMenu2} onMouseLeave={handleMenu2} className='flex-col  space-y-5'>
 <div className=' flex items-center gap-2 text-xs md:text-sm   text-cGreen hover:text-[#21C063] ' >
 <h1 className=' font-bold text-xs md:text-sm tracking-wider  cursor-pointer py-4'>Services</h1>
