@@ -17,12 +17,12 @@ const Services = () => {
 
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-4'>
 
-            <div className='   text-[#0C5A23]  hover:text-white bg-white flex flex-col gap-4   items-center shadow-lg  rounded-lg md:p-10  py-8  px-8'>
+            <div className='   text-[#0C5A23] hover:bg-[#44CA7C]  hover:text-white bg-white flex flex-col gap-4   items-center shadow-lg  rounded-lg md:p-10  py-8  px-8'>
 
               <TbMedicineSyrup size={72} />
 
               <h1 className='text-2xl font-bold  '>Medical Services</h1>
-              <p className='  text-center font-medium'> Natoque fames facilisi placerat nunc non felis erat duis imperdiet</p>
+              <p className='  text-center font-medium'> Stay in your best health with our Medical Services</p>
 
 
             </div>
@@ -34,21 +34,21 @@ const Services = () => {
               <RiMentalHealthLine size={72} />
 
               <h1 className='text-2xl text-center  '>Mental Health Services</h1>
-              <p className=' text-center font-medium'> Natoque fames facilisi placerat nunc non felis erat duis imperdiet</p>
+              <p className=' text-center font-medium'> Elevate your well-being with our expert mental health services.</p>
             </div>
             <div className='text-[#0C5A23] bg-white hover:bg-[#44CA7C] hover:text-white flex flex-col gap-4 font-bold  items-center shadow-lg  rounded-lg md:p-10  py-8  px-8'>
 
               <FaHandshake size={72} />
 
               <h1 className='text-2xl text-center  '>Behavioral Health Services</h1>
-              <p className=' text-center font-medium'> Natoque fames facilisi placerat nunc non felis erat duis imperdiet</p>
+              <p className=' text-center font-medium'> Transforming lives through tailored behavioral health services</p>
             </div>
             <div className='text-[#0C5A23] bg-white hover:bg-[#44CA7C] hover:text-white flex flex-col gap-4 font-bold  items-center shadow-lg  rounded-lg md:p-10  py-8  px-8'>
 
               <TbDental size={72} />
 
               <h1 className='text-2xl text-center  '>Dental & Dentistry Services</h1>
-              <p className=' text-center font-medium'> Natoque fames facilisi placerat nunc non felis erat duis imperdiet</p>
+              <p className=' text-center font-medium'>Optimal oral wellness through comprehensive Dental & Dentistry services.</p>
             </div>
 
         
@@ -57,14 +57,14 @@ const Services = () => {
               <MdAttachMoney size={72} />
 
               <h1 className='text-2xl text-center '>Workers Compensation & Non-Fault claims</h1>
-              <p className=' text-center font-medium'> Natoque fames facilisi placerat nunc non felis erat duis imperdiet</p>
+              <p className=' text-center font-medium'> Efficient solutions ensuring a smooth path to recovery.</p>
             </div>
             <div className='text-[#0C5A23] hover:bg-[#44CA7C] hover:text-white bg-white flex flex-col gap-4   items-center shadow-lg  rounded-lg md:p-10  py-8  px-8'>
 
               <FaRegEye size={72} />
 
               <h1 className='text-2xl font-bold text-center '>Vision Care Services</h1>
-              <p className=' text-center font-medium'> Natoque fames facilisi placerat nunc non felis erat duis imperdiet</p>
+              <p className=' text-center font-medium'> Expert Vision Care for clear, compassionate sight.</p>
             </div>
 
 
@@ -73,15 +73,15 @@ const Services = () => {
 
               <FaComputer size={72} />
 
-              <h1 className='text-2xl  text-center '>DEM Services </h1>
-              <p className=' text-center font-medium'> Natoque fames facilisi placerat nunc non felis erat duis imperdiet</p>
+              <h1 className='text-2xl  text-center '>DME Services </h1>
+              <p className=' text-center font-medium'> Elevate life with our DME Services.</p>
             </div>
             <div className='text-[#0C5A23] hover:bg-[#44CA7C] hover:text-white bg-white flex flex-col gap-4   items-center shadow-lg  rounded-lg md:p-10  py-8  px-8'>
 
               <RiHomeHeartLine size={72} />
 
               <h1 className='text-2xl font-bold text-center '>Home Health Care Services</h1>
-              <p className=' text-center font-medium'> Natoque fames facilisi placerat nunc non felis erat duis imperdiet</p>
+              <p className=' text-center font-medium'> Bringing comfort home with our Home Health Care Services</p>
             </div>
 
           </div>

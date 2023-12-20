@@ -23,6 +23,7 @@ module.exports = {
       "img2" : "url('../src/Assets/Home/logo.png') ",
       "img3" : "url('../src/Assets/Home/logo-backgroud.png') ",
       "img4" : "url('../src/Assets/Home/bus.jpg') ",
+      "img5" : "url('../src/Assets/TopBenefits/Medical-Billing-Companies.jpg') ",
       'grad,ient-radial': 'radial-gradient(var(--tw-gradient-stops))'
     }
   }

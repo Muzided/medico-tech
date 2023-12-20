@@ -25,8 +25,7 @@ export const Home = () => {
               People's Health is Our Priority
             </h2>
             <p className='text-center md:text-left py-8 md:px-0 leading-7 px-4'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-            </p>
+              Your well-being, our priority – delivering compassionate and comprehensive medical care tailored to your needs. </p>
             <div className='md:block flex justify-center  md:w-2/5' >
               <div className='  justify-center flex py-2 rounded-md px-6 bg-[#0C5A23] '>
                 <button className=' text-white text-lg font-semibold '>
@@ -102,11 +101,9 @@ export const Home = () => {
               We Are Professional<span className='bg-white md:bg-transparent' > Medical Service & Clinic</span>
             </h1>
             <p className='bg-white hidden md:flex '>
-              Finibus aptent pede aliquet adipiscing lacinia quam. Scelerisque est pede iaculis. Dolor vivamus rhoncus sapien vulputate porttitor class facilisis. Netus magna lobortis morbi. Nisi eu nam tempor letius.
-            </p>
+            Welcome to our Medio Tech, where your health is our top priority. At our facility, we are dedicated to providing compassionate and comprehensive medical care that is personalized to meet your unique needs. Our team of skilled healthcare professionals is committed to ensuring your well-being through a range of services designed to promote and maintain a healthy lifestyle. </p>
             <p className='hidden md:flex'>
-              Ultrices consequat viverra quis. Vehicula fames risus parturient ultricies. Diam pharetra condimentum dapibus fames senectus laoreet et. Magna viverra vestibulum rutrum arcu letius.
-            </p>
+            Trust us to be your partner on the journey to optimal health, with a focus on quality care and patient satisfaction. Welcome to a place where your health and comfort matter most.</p>
             <div className='hidden md:block pt-10 pl-8'>
               <div className='   py-4 rounded-md px-8 bg-[#0C5A23] '>
                 <button className=' text-white text-lg font-semibold '>
@@ -119,11 +116,9 @@ export const Home = () => {
 
         </div>
         <p className='bg-white md:hidden px-8 leading-8 pt-4 '>
-          Finibus aptent pede aliquet adipiscing lacinia quam. Scelerisque est pede iaculis. Dolor vivamus rhoncus sapien vulputate porttitor class facilisis. Netus magna lobortis morbi. Nisi eu nam tempor letius.
-
+        Welcome to our Medio Tech, where your health is our top priority. At our facility, we are dedicated to providing compassionate and comprehensive medical care that is personalized to meet your unique needs. Our team of skilled healthcare professionals is committed to ensuring your well-being through a range of services designed to promote and maintain a healthy lifestyle.
         </p><p className='bg-white md:hidden px-8 leading-8 pt-4 '>
-          Ultrices consequat viverra quis. Vehicula fames risus parturient ultricies. Diam pharetra condimentum dapibus fames senectus laoreet et. Magna viverra vestibulum rutrum arcu letius.
-        </p>
+        Trust us to be your partner on the journey to optimal health, with a focus on quality care and patient satisfaction. Welcome to a place where your health and comfort matter most.</p>
         <div className='md:hidden bg-white justify-center flex py-6 pt-10'>
           <div className='  justify-center flex py-4 rounded-md w-2/3 bg-[#0C5A23] '>
             <button className=' text-white text-lg font-semibold '>
@@ -145,7 +140,7 @@ export const Home = () => {
         <Testimonials/>
       </div>
       <div>
-        {/* <Partner/> */}
+        <Partner/>
       </div>
       <div className='pb-14 md:pb-0'>
         <Blog />

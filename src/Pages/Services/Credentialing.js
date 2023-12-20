@@ -4,21 +4,26 @@ import Connect from '../../Components/Contact/Connect'
 import Talk from '../../Components/Talk'
 const Credentialing = () => {
   return (
-    <div className=' bg-mem5 flex py-4  flex-col lg:justify-center bg-cover bg-no bg-repeat'>
+    <div>
+ <div className=' bg-mem5 flex py-4  flex-col lg:justify-center bg-cover bg-no bg-repeat'>
     
     <h1 className='text-3xl md:text-6xl text-center font-bold pb-6 lg:pb-10 text-cGreen' > Credentialing / Enrollment</h1> 
     <p className='px-4 md:px-6 tracking-wide lg:px-8 text-sm lg:pb-10 pb-4 md:text-lg  text-center'>
-    MedioTech's Credentialing/Enrollment Service accelerates provider onboarding, ensuring rapid access to healthcare networks through streamlined credential verification</p>
-<KeyFeatures F1='Swift Onboarding' F2='Efficient Credential Verification' F3='Streamlined Access' D1="
+    MedicoTech's Credentialing/Enrollment Service accelerates provider onboarding, ensuring rapid access to healthcare networks through streamlined credential verification</p>
+<KeyFeatures F1='Provider Initial Credentialing' F2='Network Enrollment' F3='Streamlined Access' D1="
 
-MedioTech expedites the credentialing and enrollment process, enabling healthcare providers to swiftly join networks and start delivering care."
+We work closely with our healthcare providers gethering all required/necessary documents to file initial application submission to ongoing monitoring, to complete initial provier credentialing process whether they want to participate as an In-network OR Out-Of-Network  provider/practice. We handle every step with precision.
+"
 D2="
-Our service ensures accuracy and efficiency in credential verification, reducing administrative burden and ensuring compliance with regulatory standards. "
-D3="MedioTech's Credentialing/Enrollment Service provides a seamless pathway, granting healthcare professionals quick and hassle-free access to healthcare networks." />
+Expand and manage your provider network seamlessly. Our enrollment services cover all aspects, from application processing to contract management, ensuring a robust and compliant network. "
+D3="MedicoTech's Credentialing/Enrollment Service provides a seamless pathway, granting healthcare professionals quick and hassle-free access to healthcare networks." />
 
-  <Talk/>
+  
+</div>
+<Talk/>
 <Connect/>
-</div> )
+    </div>
+    )
 }
 
 export default Credentialing

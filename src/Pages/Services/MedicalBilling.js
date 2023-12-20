@@ -5,19 +5,23 @@ import Talk from '../../Components/Talk'
 
 const MedicalBilling = () => {
   return (
-    <div className=' bg-mem5 flex py-4  flex-col lg:justify-center bg-cover bg-no bg-repeat'>
+    <div>
+      <div className=' bg-mem5 flex py-4  flex-col lg:justify-center bg-cover bg-no bg-repeat'>
     
-              <h1 className='text-3xl md:text-6xl text-center font-bold pb-6 lg:pb-10 text-cGreen' > Medical Billing</h1> 
-              <p className='px-4 md:px-6 tracking-wide lg:px-8 text-sm lg:pb-10 pb-4 md:text-lg  text-center'>
-              MedioTech's Medical Billing Service streamlines financial operations, ensuring precision and efficiency in processing healthcare claims. With cutting-edge technology, we optimize revenue cycles, allowing healthcare providers to focus on delivering exceptional patient care</p>
-   <KeyFeatures F1='Precision Billing' F2='Efficient Revenue Cycle Management' F3='Technology-Driven Solutions' D1="
-MedioTech's billing service ensures accurate and timely submission of healthcare claims, minimizing errors and optimizing reimbursement processes"
-D2='Our integrated approach streamlines the entire revenue cycle, from claim generation to payment collection, maximizing financial efficiency for healthcare providers'
-D3='Leveraging advanced technology, MedioTech enhances billing operations with automated processes, real-time tracking, and insightful analytics, empowering healthcare providers with data-driven financial management.' />
-    
-      <Talk/>
-    <Connect/>
+    <h1 className='text-3xl md:text-6xl text-center font-bold pb-6 lg:pb-10 text-cGreen' > Professional Medical Billing Services for Seamless Revenue Management
+</h1> 
+    <p className='px-4 md:px-6 tracking-wide lg:px-8 text-sm lg:pb-10 pb-4 md:text-lg  text-center'>
+    Welcome to Medico Tech, where we take the hassle out of medical billing, allowing healthcare providers to focus on what matters most – patient care. With our comprehensive and efficient medical billing services, we streamline the revenue cycle, optimize reimbursement, and ensure your practice's financial health.</p>
+<KeyFeatures F1='Claims Submission and Management' F2='Revenue Cycle Management' F3='Technology-Driven Solutions' D1="
+We handle the entire claims process from start to finish, ensuring accurate and timely submission. Our team is well-versed in navigating the complexities of insurance claims, reducing denials and maximizing reimbursement for your services."
+D2='Efficient revenue cycle management is crucial for the financial success of any healthcare practice. We meticulously track and manage each stage of the revenue cycle, from patient registration to final payment, to enhance cash flow and minimize revenue leakage.'
+D3='Leveraging advanced technology, MedicoTech enhances billing operations with automated processes, real-time tracking, and insightful analytics, empowering healthcare providers with data-driven financial management.' />
+
+
+</div><Talk/>
+<Connect/>
     </div>
+    
   )
 }
 

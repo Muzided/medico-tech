@@ -23,6 +23,7 @@ import SEO from './Pages/Services/SEO';
 import SocialMedia from './Pages/Services/SocialMedia';
 import { Specialities } from './Pages/Specialities';
 import Appointment from './Pages/Appointment';
+import TopBenefits from './Pages/TopBenefits';
 
 function App() {
   
@@ -53,6 +54,7 @@ function App() {
       {/* Other */}
       <Route path='/specialities' element={<Specialities/> } />
       <Route path='/Appointment'  element={<Appointment/>}        />
+      <Route path='/topBenefits' element={<TopBenefits/>} />
      </Routes>
       {/* Footer */}
       <Footer/> 

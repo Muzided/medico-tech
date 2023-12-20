@@ -6,10 +6,10 @@ import { FaYoutube } from "react-icons/fa";
 import img from '../../Assets/Home/Bus2.jpg'
 const Connect = () => {
   return (
-    <div className=' lg:bg-img4 flex justify-center '>
+    <div className=' lg:bg-img4 overflow-x-hidden flex justify-center '>
     <div className=''>
-    <img src={img} className='w-fit lg:hidden h-fit' />
-       <div className=' py-10 justify-center lg:pb-20 flex'> 
+    <img src={img} className='  md:hidden' />
+       <div className=' py-10 justify-center lg:pb-6 flex'> 
        <div className=' w-4/5'>
           <div className=' pl flex px-10 flex-col lg:flex-row bg-white rounded-lg   shadow-lg overflow-hidden'>
             
@@ -71,8 +71,7 @@ const Connect = () => {
              <p className='text-[#88DDAB]'><span className=' text-[#1CA552] text-lg'>_______</span>__________________________________</p>
              <div className='   pt-6 '>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-                </p>
+                Stay connected and explore more by checking out our socials – where community, updates, and engagement come together in one click.</p>
              </div>
              <div className='flex  gap-6 bg-white  text-[#0C5A23] pt-10 py-6'>
         <FaFacebook size={28}  className='cursor-pointer duration-300 hover:-translate-y-2 '/>

@@ -29,7 +29,7 @@ const DropDown = () => {
   {  menu2? <Menu2/> : null}
   <h1 className='text-cGreen font-bold text-sm'><a href='/contact'>Contact</a></h1>
   <div className=' flex items-center gap-2' onClick={handleMenu3}>
-  <h1 className='text-cGreen font-bold text-sm'>Page</h1>
+  <h1 className='text-cGreen font-bold text-sm'>Learn </h1>
   <FaCaretDown color="green" />
   </div>
   {  menu3? <Menu3/> : null}
