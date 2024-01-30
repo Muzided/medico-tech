@@ -1,5 +1,6 @@
 
 import './App.css';
+import { useRef } from 'react';
 import Navbar from './Components/Navbar'
 import{Route,Routes} from "react-router-dom"
 import Home from './Pages/Home'
@@ -25,8 +26,11 @@ import { Specialities } from './Pages/Specialities';
 import Appointment from './Pages/Appointment';
 import TopBenefits from './Pages/TopBenefits';
 
+//tawk-to live chat
+import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
+
 function App() {
-  
+
   return (
     <>
       {/* NavBar */}
@@ -48,7 +52,7 @@ function App() {
       <Route path='/Email' element={<Email/>} />
       <Route path='/It' element={<IT/>} />  
       <Route path='/Graphic' element={<GraphicDesign/>} />
-      <Route path='/WebDev' element={<WebDev/>} />
+      <Route path='/WebDev' element={<WebDev/>}/>
       <Route path='/seo' element={<SEO/>} />
       <Route path='/Social' element={<SocialMedia/>} />
       {/* Other */}
@@ -58,6 +62,14 @@ function App() {
      </Routes>
       {/* Footer */}
       <Footer/> 
+      
+      
+          
+
+      <TawkMessengerReact
+      propertyId='65b512cd8d261e1b5f58967e'
+      widgetId='1hl5l2u0a'
+      />
     </>
   );
 }
