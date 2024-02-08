@@ -21,13 +21,13 @@ export const Home = () => {
           <div className='md:flex md:flex-col md:bg-white/60 lg:w-1/2 max-w-xl  md:px-10 md:rounded-lg md:pt-10 md:pb-14'>
             <h1 className=' text-[#08485E] tracking-widest md:tracking-wider md:block md:text-lg justify-center flex py-4 text-xs font-bold' > BETTER HEALTH </h1>
 
-            <h2 className=' text-[#0C5A23] text-4xl text-center md:tracking-normal md:text-left md:text-7xl font-bold tracking-wide' >
-              People's Health is Our Priority
+            <h2 className=' text-primary text-4xl text-center md:tracking-normal md:text-left md:text-7xl font-bold tracking-wide' >
+            Maximize Your Revenue
             </h2>
             <p className='text-center md:text-left py-8 md:px-0 leading-7 px-4'>
-              Your well-being, our priority – delivering compassionate and comprehensive medical care tailored to your needs. </p>
+            MedicoTech stands out as a premier choice, offering a various services that streamline operations, enhance revenue collection, and reduce the administrative burden for healthcare providers. </p>
             <div className='md:block flex justify-center  md:w-2/5' >
-              <div className='  justify-center flex py-2 rounded-md px-6 bg-[#0C5A23] '>
+              <div className='  justify-center flex py-2 rounded-md px-6 bg-primary hover:bg-secondary'>
                 <button className=' text-white text-lg font-semibold '>
                   Discover More
                 </button>
@@ -43,12 +43,12 @@ export const Home = () => {
       {/* About Us */}
       <div className='flex flex-col pt-6 md:flex-row justify-center gap-4 lg:gap-8'>  
         <div className='flex  flex-col  md:flex-row py-10 md:gap-12 gap-6 px-4'>
-          <div className='text-[#0C5A23] flex flex-col gap-4 font-bold  items-center shadow-lg  rounded-lg  md:p-12 md:pb-6 py-8 px-8'>
+          <div className='text-primary flex flex-col gap-4 font-bold  items-center shadow-lg  rounded-lg  md:p-12 md:pb-6 py-8 px-8'>
             <AiOutlineSafety size={72} />
             <h1 className='text-2xl  '>Extra Care</h1>
             <p className='text-gray-500'> Your Health is Our Priority</p>
           </div>
-          <div className='text-[#0C5A23] flex flex-col gap-4 font-bold  items-center shadow-lg  rounded-lg md:p-12 md:pb-6 py-8  px-8'>
+          <div className='text-primary flex flex-col gap-4 font-bold  items-center shadow-lg  rounded-lg md:p-12 md:pb-6 py-8  px-8'>
 
             <TbMedicineSyrup size={72} />
 
@@ -59,7 +59,7 @@ export const Home = () => {
 
         </div>
         <div className='px-4 py-4  shadow-xl rounded-lg'>
-          <div className='bg-[#22A746] lg:px-10 pt-8 rounded-lg'>
+          <div className='bg-primary lg:px-10 pt-8 rounded-lg'>
             <div className='text-white flex flex-col gap-4 font-bold pb-10 items-center   rounded-lg p-8'>
 
               <TfiHeadphoneAlt size={72} />
@@ -76,7 +76,7 @@ export const Home = () => {
         <div className='md:pl-32'>
           <div className='md::pl-96 -mb-32 pt-2'>
             <div className='md:pl-96 pt-2'>
-              <div className='bg-mem1 h-60 bg-no-repeat  md:bg-fit  ' >
+              <div className='md:bg-mem1 h-60 bg-no-repeat  md:bg-fit  ' >
                 <div className='bg-white/80 h-72 '>
 
                 </div>
@@ -90,22 +90,22 @@ export const Home = () => {
 
         <div className='  px-6 py-6 md:flex md:justify-center md:gap-6'>
 
-          <div className='bg-mem2 md:h-[81vh]  bg-cover  px-8 pb-2 md:pb-6  pt-8 '>
+          <div className=' md:h-[81vh] md:bg-mem2  bg-cover  px-8 pb-2 md:pb-6  pt-8 '>
             <img className=' lg:h-[75vh] rounded-lg' src={img} alt='eh' />
           </div>
           <div className='flex flex-col md:text-md md:items-start md:pt-4 gap-5 items-center md:w-2/5'>
             <h1 className='pt-4 text-[#08485E] font-bold md:text-lg tracking-wider'>
               ABOUT US
             </h1>
-            <h1 className='text-3xl md:text-5xl md:text-left text-center font-bold tracking-wider'>
-              We Are Professional<span className='bg-white md:bg-transparent' > Medical Service & Clinic</span>
+            <h1 className='text-3xl md:text-5xl text-primary md:text-left text-center font-bold tracking-wider'>
+            Boost Your Revenue With Our Expert<span className='bg-white text-secondary md:bg-transparent' >  Medical Billing Company</span>
             </h1>
             <p className='bg-white hidden md:flex '>
-            Welcome to our Medio Tech, where your health is our top priority. At our facility, we are dedicated to providing compassionate and comprehensive medical care that is personalized to meet your unique needs. Our team of skilled healthcare professionals is committed to ensuring your well-being through a range of services designed to promote and maintain a healthy lifestyle. </p>
+            Welcome to our Medio Tech, your trusted partner in medical billing/coding and credentialing services. With a commitment to excellence and a passion for healthcare, we are dedicated to simplifying the administrative complexities that medical professionals face in their practices. </p>
             <p className='hidden md:flex'>
-            Trust us to be your partner on the journey to optimal health, with a focus on quality care and patient satisfaction. Welcome to a place where your health and comfort matter most.</p>
+           Our main focus is on Individual providers, clinics, hospitals, medical practices, nursing facilities and DME suppliers. Our goal is to optimize your revenue cycle, streamline your administrative processes, and ensure your practice remains compliant with ever-evolving regulations.</p>
             <div className='hidden md:block pt-10 pl-8'>
-              <div className='   py-4 rounded-md px-8 bg-[#0C5A23] '>
+              <div className='   py-4 rounded-md px-8 bg-primary '>
                 <button className=' text-white text-lg font-semibold '>
                   Discover More
                 </button>
@@ -116,11 +116,11 @@ export const Home = () => {
 
         </div>
         <p className='bg-white md:hidden px-8 leading-8 pt-4 '>
-        Welcome to our Medio Tech, where your health is our top priority. At our facility, we are dedicated to providing compassionate and comprehensive medical care that is personalized to meet your unique needs. Our team of skilled healthcare professionals is committed to ensuring your well-being through a range of services designed to promote and maintain a healthy lifestyle.
+        Welcome to our Medio Tech, your trusted partner in medical billing/coding and credentialing services. With a commitment to excellence and a passion for healthcare, we are dedicated to simplifying the administrative complexities that medical professionals face in their practices.
         </p><p className='bg-white md:hidden px-8 leading-8 pt-4 '>
-        Trust us to be your partner on the journey to optimal health, with a focus on quality care and patient satisfaction. Welcome to a place where your health and comfort matter most.</p>
+       Our main focus is on Individual providers, clinics, hospitals, medical practices, nursing facilities and DME suppliers. Our goal is to optimize your revenue cycle, streamline your administrative processes, and ensure your practice remains compliant with ever-evolving regulations.</p>
         <div className='md:hidden bg-white justify-center flex py-6 pt-10'>
-          <div className='  justify-center flex py-4 rounded-md w-2/3 bg-[#0C5A23] '>
+          <div className='  justify-center flex py-4 rounded-md w-2/3 bg-primary '>
             <button className=' text-white text-lg font-semibold '>
               Discover More
             </button>
@@ -133,18 +133,18 @@ export const Home = () => {
         <Services />
 
       </div>
-      <div className='md:pb-8'>
+      {/* <div className='md:pb-8'>
         <Achievements />
-      </div>
+      </div> */}
       <div>
         <Testimonials/>
       </div>
-      <div>
+      {/* <div>
         <Partner/>
-      </div>
-      <div className='pb-14 md:pb-0'>
+      </div> */}
+      {/* <div className='pb-14 md:pb-0'>
         <Blog />
-      </div>
+      </div> */}
 
 
 

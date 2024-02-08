@@ -18,7 +18,7 @@ import HelpDesk from './Pages/Services/HelpDesk';
 import InOutService from './Pages/Services/InOutService';
 import Email from './Pages/Services/Email';
 import IT from './Pages/Services/IT';
-import GraphicDesign from './Pages/Services/GraphicDesign';
+import GraphicDesign from './Pages/Services/GraphicDesign'; 
 import WebDev from './Pages/Services/WebDev';
 import SEO from './Pages/Services/SEO';
 import SocialMedia from './Pages/Services/SocialMedia';

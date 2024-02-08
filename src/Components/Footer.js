@@ -1,9 +1,11 @@
 import React from 'react'
 import { IoMdMail } from "react-icons/io";
 import { IoLocationOutline } from "react-icons/io5";
+import { MdOutlineHealthAndSafety } from "react-icons/md"
 import { useState } from 'react';
 import { FaPhoneAlt } from "react-icons/fa";
-
+import { IoChevronForward } from "react-icons/io5";
+import { NavLink } from 'react-router-dom';
     
    
     
@@ -13,9 +15,9 @@ const Footer = () => {
    
   return (
     <div>
- <div className=' bg-[#0C5C24]  '>
+ <div className=' bg-primary  '>
     
-<div className='bg-mem3  pb-10   bg-no-repeat '>
+<div className='    pb-10   bg-no-repeat '>
     <div className=''>
     <div className='flex flex-col  justify-center'>
     <h1 className='text-2xl md:text-5xl lg:pt-16 pt-4  lg:tracking-wider text-white font-bold text-center'> Get in Touch With Us</h1>
@@ -27,13 +29,13 @@ const Footer = () => {
             <div className=' flex-col lg:flex-row items-center  justify-center flex rounded-lg  py-8   lg:min-w-xl bg-white lg:h-44'>
            
             <div className='px-4'>
-            <div className= 'hover:scale-110  duration-300 transition-transform  text-white  hover:bg-[#229631] w-24  flex justify-center h-24 rounded-full pt-2 bg-[#0C5A23] '>
+            <div className= 'hover:scale-110  duration-300 transition-transform  text-white  hover:bg-secondary w-24  flex justify-center h-24 rounded-full pt-2 bg-primary '>
             <IoLocationOutline color='white' size={72}/>
             </div>
             </div>
 
             <div className='flex items-center pt-4 text-center   flex-col '>
-             <h1 className='text-2xl pb-4 text-[#0C5A23] font-bold ' > Head Office</h1>
+             <h1 className='text-2xl pb-4 text-primary font-bold ' > Head Office</h1>
              <div className='flex lg:flex-col'>
              <p className='text-sm'> Islamabad DHA</p>
              <p className='text-sm'> 22 - Khyber 1D</p>
@@ -46,14 +48,14 @@ const Footer = () => {
             </div>
             <div className='bg-white flex-col lg:flex-row items-center lg:min-w  justify-center  flex rounded-lg  py-8 lg:pr-10 lg:h-44'>
             <div className='px-4'>
-            <div className=  'hover:scale-110  duration-300 transition-transform  text-white  hover:bg-[#229631] w-24  flex justify-center h-24 rounded-full pt-4 bg-[#0C5A23] '>
+            <div className=  'hover:scale-110  duration-300 transition-transform  text-white  hover:bg-secondary w-24  flex justify-center h-24 rounded-full pt-4 bg-primary '>
             <IoMdMail color='white' size={64}/>
             </div>
             </div>
             
           
             <div className='flex items-center pt-4   flex-col '>
-             <h1 className='text-2xl pb-4 font-bold text-[#0C5A23] ' > Email Us</h1>
+             <h1 className='text-2xl pb-4 font-bold text-primary ' > Email Us</h1>
             
              <p className='text-sm'> dummyemail@gmail.com</p>
              <p className='text-sm'> dummyemail@gmail.com</p>
@@ -66,12 +68,12 @@ const Footer = () => {
             </div>
             <div className='bg-white flex-col lg:flex-row items-center lg:min-w justify-center  flex rounded-lg  py-8 lg:pr-16 lg:h-44'>
             <div className='px-4'>
-            <div className= ' hover:scale-110  duration-300 transition-transform  text-white  hover:bg-[#229631] w-24 flex justify-center  h-24 rounded-full pt-4 bg-[#0C5A23] '>
+            <div className= ' hover:scale-110  duration-300 transition-transform  text-white  hover:bg-secondary w-24 flex justify-center  h-24 rounded-full pt-4 bg-primary '>
             <FaPhoneAlt  size={56}/>
             </div>
             </div>
             <div className='flex items-center pt-4 flex-col '>
-             <h1 className='text-2xl pb-4 text-[#0C5A23] font-bold' > Call Us</h1>
+             <h1 className='text-2xl pb-4 text-primary font-bold' > Call Us</h1>
              <p> 11223344556677</p>
              <p> 88776611223344</p>
 
@@ -86,7 +88,7 @@ const Footer = () => {
 
 
 </div>
-<div className='flex bg-white justify-center p-2 lg:p-6'>
+{/* <div className='flex bg-white justify-center p-2 lg:p-6'>
          <div className=' shadow-2xl rounded-xl bg-img2 -bg-cover md:w-4/6  pt-16 p-8 md:p-20 flex flex-col'>
          <h1 className='text-2xl md:text-3xl lg:text-5xl font-bold  text-white text-center  '> Sign Up For Our Newsletter.</h1>
          <p className='text-center pt-4 pb-6 font-bold text-sm md:text-lg text-white'> Get Weekly Updates on the latest news in Medical Services</p>
@@ -100,10 +102,39 @@ const Footer = () => {
           
             </div>
          </div>
-</div>
+</div> */}
+
+<div className='flex-col flex md:flex-row space-y-3 md:space-y-0  md:px-10 py-4'>
+              <div className='flex md:w-1/3  text-primary font-bold gap-2 items-center '>
+              <MdOutlineHealthAndSafety color='' size={44} />
+            <h1 className=' font-bold text-5xl'>
+              MEDICOTECH
+            </h1>
+              </div>
+              <div className='flex-col md:w-1/3 gap-4 px-2 text-primary  items-center '>
+                <h1 className='text-xl font-bold md:text-left text-center pb-6'> Main Menu</h1>
+          <div className='flex gap-2 items-center'><IoChevronForward />     <h1 className='cursor-pointer py-1'> Home</h1></div>
+          <div className='flex gap-2 items-center'><IoChevronForward />    <NavLink to='/topBenefits'>   <h1 className='cursor-pointer py-1'> About Us</h1> </NavLink>  </div>  
+                <div className='flex gap-2 items-center'><IoChevronForward />     <h1 className='cursor-pointer py-1'> Services</h1></div>
+            <div className='flex gap-2 items-center'><IoChevronForward /> <NavLink   to='/specialities' > <h1 className='cursor-pointer py-1'> Specialities</h1></NavLink>   </div>       
+           <div className='flex gap-2 items-center'><IoChevronForward />  <NavLink to={'/contact'}> <h1 className='cursor-pointer py-1'> Contact</h1> </NavLink>  </div>
+            
+          
+                
+                
+               
+              </div>
+              <div className=' items-flex-col md:w-1/3 gap-4 px-2 text-primary  items-center'>
+              <h1 className='text-xl font-bold  text-center md:text-left pb-6'> Contact Us</h1>
+               <div className='flex gap-2 items-center '> <IoLocationOutline />   <h1 className='py-1'> Islamabad,DHA</h1> </div>
+              <div  className='flex gap-2 items-center'> <FaPhoneAlt /> <h1  className='py-1'> 0313 21313312</h1></div>
+                <div className='flex gap-2 items-center'><IoMdMail/>  <h1  className='py-1'> info@mediotech.com</h1></div>
+               
+              </div>
+            </div>
 
 
-<p className='bg-white py-8 md:pt-0 md:px-0 px-6 text-sm md:text-md text-center '> © 2023 MEDICOTECH. All rights reserved. Powered by MoxCreative</p>
+<p className='bg-white py-8 md:pt-0 md:px-0 px-6 pt-2 text-sm md:text-md text-center '> © 2024 MEDICOTECH. All rights reserved. Powered by MoxCreative</p>
 
     </div>
    

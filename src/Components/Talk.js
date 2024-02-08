@@ -8,7 +8,7 @@ const Talk = () => {
         <p className='text-black/80 md:tracking-wide text-center tracking-normal lg:tracking-widest'> Connect for a consultation and discover tailored solutions to meet your unique needs.</p>
     </div>
     <div className='md:flex flex justify-center md:w-1/3 lg:w-fit  '>
-    <div className='bg-gradient-to-tr from-[#21C063] to-cGreen shadow-lg lg:px-6 md:px-4  px-2 py-4 flex justify-center rounded-lg text-white hover:bg-[#21C063] font-semibold'>
+    <div className='bg-gradient-to-tr from-primary to-secondary shadow-lg lg:px-6 md:px-4  px-2 py-4 flex justify-center rounded-lg text-white  font-semibold'>
     <button className='tracking-wide  text-lg '><a href='/Appointment'> Talk with An Expert</a> </button>
   </div>
     </div>

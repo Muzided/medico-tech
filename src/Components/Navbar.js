@@ -6,7 +6,7 @@ import { RxCross2 } from "react-icons/rx";
 import { MdOutlineHealthAndSafety } from "react-icons/md"
 import DropDown from './DropDown';
 import Menu1 from './Menu1';
-import Menu2 from './Menu2';
+import Menu2 from '../Components/ServiceMenu/HealthMenu';
 import Menu3 from './Menu3';
 import { NavLink } from 'react-router-dom';
 const Navbar = () => {
@@ -29,8 +29,8 @@ const Navbar = () => {
     <div>
       <div className='lg:hidden border-b-2 border-black/10 '>
         <div className='px-4 py-4 text-lg items-center flex justify-between'>
-        <NavLink to={'/'}> <div className=' flex gap-2 items-center'>
-            <MdOutlineHealthAndSafety color='green' size={44} />
+        <NavLink to={'/'}> <div className='text-primary flex gap-2 items-center'>
+            <MdOutlineHealthAndSafety color='' size={44} />
             <h1 className=' font-bold text-lg'>
               MEDICOTECH
             </h1>
@@ -45,9 +45,9 @@ const Navbar = () => {
       </div>
       <div className='hidden   h-[70px] lg:block'>
         <div className=' px-14 text-lg items-center   flex justify-between' >
-        <NavLink to={'/'}>  <div className=' flex gap-2 items-center '>
-            <MdOutlineHealthAndSafety color='green' size={44} />
-            <h1 className=' font  -bold text-lg'>
+        <NavLink to={'/'}>  <div className=' text-primary flex gap-2 items-center '>
+            <MdOutlineHealthAndSafety color='' size={44} />
+            <h1 className=' font-bold text-lg'>
               MEDICOTECH
             </h1>
           </div>
@@ -55,33 +55,33 @@ const Navbar = () => {
 
 
           <div className='flex gap-10 items-center  '>
-            <h1 className='text-cGreen font-bold text-sm tracking-wider  hover:text-[#21C063]  border-white border-b-2 hover:border-[#21C063] cursor-pointer  py-6'><NavLink to={'/'}> Home</NavLink> </h1>
+          <NavLink to={'/'}>    <h1 className='text-primary font-bold text-sm tracking-wider  hover:text-secondary  border-white border-b-2 hover:border-secondary cursor-pointer  py-6'>Home </h1></NavLink>
             <div onMouseEnter={handleMenu1} onMouseLeave={handleMenu1} className='flex-col  space-y-5'>
-              <div className=' flex items-center gap-2 text-cGreen hover:text-[#21C063] border-white border-b-2  hover:border-[#21C063]' >
-                <h1 className=' font-bold text-sm tracking-wider   cursor-pointer py-6'>About Us</h1>
-                <FaCaretDown />
+              <div className=' flex items-center gap-2 text-primary hover:text-secondary border-white border-b-2  hover:border-secondary' >
+             <NavLink to={'/topBenefits'}><h1 className=' font-bold text-sm tracking-wider   cursor-pointer py-6'>About Us</h1> 
+            </NavLink>   {/* <FaCaretDown /> */}
               </div>
-              {menu1 ? <Menu1 className="" /> : null}
+              {/* {menu1 ? <Menu1 className="" /> : null} */}
             </div>
 
             <div onMouseEnter={handleMenu2} onMouseLeave={handleMenu2} className='flex-col  space-y-5'>
-              <div className=' flex items-center gap-2  text-cGreen hover:text-[#21C063]  border-white border-b-2 hover:border-[#21C063]' >
+              <div className=' flex items-center gap-2  text-primary hover:text-secondary  border-white border-b-2 hover:border-secondary' >
                 <h1 className=' font-bold text-sm tracking-wider  cursor-pointer py-6'>Services</h1>
                 <FaCaretDown />
               </div>
               {menu2 ? <Menu2 className="" /> : null}
             </div>
-            <h1 className='text-cGreen font-bold text-sm tracking-wider  hover:text-[#21C063]  border-white border-b-2 hover:border-[#21C063] cursor-pointer  py-6'><NavLink to={'/specialities'}>Specialities</NavLink> </h1>
-            <h1 className='text-cGreen font-bold text-sm tracking-wider  hover:text-[#21C063]  border-white border-b-2 hover:border-[#21C063] cursor-pointer py-6'><NavLink to={'/contact'}>Contact </NavLink> </h1>
-            <div onMouseEnter={handleMenu3} onMouseLeave={handleMenu3} className='flex-col  space-y-5'>
-              <div className=' flex items-center gap-2  text-cGreen hover:text-[#21C063]  border-white border-b-2 hover:border-[#21C063]' >
+            <NavLink to={'/specialities'}>  <h1 className='text-primary font-bold text-sm tracking-wider  hover:text-secondary  border-white border-b-2 hover:border-secondary cursor-pointer  py-6'>Specialities </h1></NavLink>
+            <NavLink to={'/contact'}> <h1 className='text-primary font-bold text-sm tracking-wider  hover:text-secondary  border-white border-b-2 hover:border-secondary cursor-pointer py-6'>Contact  </h1></NavLink>
+            {/* <div onMouseEnter={handleMenu3} onMouseLeave={handleMenu3} className='flex-col  space-y-5'>
+              <div className=' flex items-center gap-2  text-primary hover:text-[#21C063]  border-white border-b-2 hover:border-[#21C063]' >
                 <h1 className=' font-bold text-sm tracking-wider  cursor-pointer py-6'>Learn</h1>
                 <FaCaretDown />
               </div>
               {menu3 ? <Menu3 className="" /> : null}
-            </div>
+            </div> */}
 
-            <div className='bg-[#0C5A23] px-6 py-2 rounded-md text-white hover:bg-[#21C063] font-semibold'>
+            <div className='bg-primary px-6 py-2 rounded-md text-white hover:bg-secondary font-semibold'>
               <button className='tracking-wide text-md '><NavLink to={'/Appointment'}>Book Appointment</NavLink> </button>
             </div>
           </div>

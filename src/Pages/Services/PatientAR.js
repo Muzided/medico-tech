@@ -5,9 +5,9 @@ import Talk from '../../Components/Talk'
 const PatientAR = () => {
   return (
     <div>
- <div className=' bg-mem5 flex py-4  flex-col lg:justify-center bg-cover bg-no bg-repeat'>
+ <div className=' flex py-4  flex-col lg:justify-center bg-cover bg-no bg-repeat'>
     
-    <h1 className='text-3xl md:text-6xl text-center font-bold lg:pb-10 pb-6 text-cGreen' > Front/Patient Help-Desk Services</h1> 
+    <h1 className='text-3xl md:text-6xl text-center font-bold lg:py-10 pb-6 text-cGreen' > Front/Patient Help-Desk Services</h1> 
     <p className='px-4 md:px-6 tracking-wide lg:px-8 text-sm lg:pb-10 pb-4 md:text-lg  text-center'>
    
     

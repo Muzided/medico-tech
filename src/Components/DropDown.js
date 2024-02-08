@@ -1,9 +1,10 @@
 import React from 'react'
 import Menu1 from './Menu1';
-import Menu2 from './Menu2';
+import Menu2 from '../Components/ServiceMenu/HealthMenu';
 import Menu3 from './Menu3';
 import { FaCaretDown } from "react-icons/fa";
 import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 const DropDown = () => {
  const [menu1,setMenu1] = useState(false)
  const [menu2,setMenu2] = useState(false)
@@ -16,23 +17,23 @@ const DropDown = () => {
   return (
     <div className='flex border-t-2  border-black/10  '>
   <div className='flex flex-col py-2    px-4 gap-8'>
-  <h1 className='text-cGreen font-bold text-sm'><a href='/'>Home</a> </h1>
-  <div className=' flex items-center gap-2' onClick={handleMenu1}>
-  <h1 className='text-cGreen font-bold text-sm'>About Us</h1>
-  <FaCaretDown color="green" />
+  <h1 className='text-primary font-bold text-sm'><NavLink href='/'>Home</NavLink> </h1>
+  <div className=' text-primary flex items-center gap-2' onClick={handleMenu1}>
+  <NavLink  to={'/topBenefits'}><h1 className='text-cGreen font-bold text-sm'>About Us</h1></NavLink> 
+  {/* <FaCaretDown color="green" /> */}
   </div>
-  {  menu1? <Menu1/> : null}
-  <div className=' flex items-center gap-2' onClick={handleMenu2}>
+  {/* {  menu1? <Menu1/> : null} */}
+  <div className=' flex text-primary items-center gap-2' onClick={handleMenu2}>
   <h1 className='text-cGreen font-bold text-sm'>Service</h1>
-  <FaCaretDown  color="green"/>
+  <FaCaretDown  />
   </div>
   {  menu2? <Menu2/> : null}
-  <h1 className='text-cGreen font-bold text-sm'><a href='/contact'>Contact</a></h1>
+  {/* <h1 className='text-cGreen font-bold text-sm'><a href='/contact'>Contact</a></h1>
   <div className=' flex items-center gap-2' onClick={handleMenu3}>
   <h1 className='text-cGreen font-bold text-sm'>Learn </h1>
   <FaCaretDown color="green" />
   </div>
-  {  menu3? <Menu3/> : null}
+  {  menu3? <Menu3/> : null} */}
    
  
     

@@ -11,21 +11,21 @@ const Menu2 = () => {
   return (
     <div className='flex flex-col md:bg-white px-4 gap-8 md:p-4 md:top-[50px] md:absolute md:shadow-lg md:rounded-sm '>
     <div className=''>
-    <div className='flex items-center text-cGreen gap-2'>
-    <h1 className='text-cGreen cursor-pointer  hover:text-[#21C063] font-bold text-sm' onClick={handleMenu1}> Health Services</h1>
+    <div className='flex items-center text-primary hover:text-secondary gap-2'>
+    <h1 className='text-cGreen cursor-pointer   font-bold text-sm' onClick={handleMenu1}> Health Care Services</h1>
     <FaCaretDown  />
     </div>
   
     { menu1? <HealthMenu/> : null}
     </div>
-    <div className=''>
+    {/* <div className=''>
     <div className='flex items-center text-cGreen gap-2'>
     <h1 className='text-cGreen cursor-pointer  hover:text-[#21C063] font-bold text-sm' onClick={handleMenu2}> Tech Services</h1>
     <FaCaretDown  />
     </div>
   
     { menu2? <CallMenu/>: null}
-    </div>
+    </div> */}
     </div>
   )
 }

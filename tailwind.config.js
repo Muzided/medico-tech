@@ -4,7 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors :{
-        'cGreen' : "#229631"
+        'primary' : "#0077B6"
+        ,
+        'secondary' : '#CE4D23'
         },
         transitionProperty: {
           'height': 'height',
