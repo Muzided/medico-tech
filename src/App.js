@@ -67,8 +67,8 @@ function App() {
           
 
       <TawkMessengerReact
-      propertyId='65b512cd8d261e1b5f58967e'
-      widgetId='1hl5l2u0a'
+      propertyId='65c8c4f40ff6374032cbc00d'
+      widgetId='1hmc42n5a'
       />
     </>
   );
