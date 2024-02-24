@@ -9,7 +9,7 @@ import DropDown from './DropDown';
 import Menu1 from './Menu1';
 import Menu2 from '../Components/ServiceMenu/HealthMenu';
 import Menu3 from './Menu3';
-import medicotechlogo from '../Assets/images/medicotechlogo.png'
+import medicotechlogo from '../Assets/images/newlogo.png'
 import { NavLink } from 'react-router-dom';
 const Navbar = () => {
   const [menu, setMenu] = useState(false)

@@ -6,6 +6,7 @@ import { useState } from 'react';
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoChevronForward } from "react-icons/io5";
 import { NavLink } from 'react-router-dom';
+import medicotechlogo from '../Assets/images/newlogo.png'
     
    
     
@@ -37,8 +38,8 @@ const Footer = () => {
             <div className='flex items-center pt-4 text-center   flex-col '>
              <h1 className='text-2xl pb-4 text-primary font-bold ' > Head Office</h1>
              <div className='flex lg:flex-col'>
-             <p className='text-sm'> Islamabad DHA</p>
-             <p className='text-sm'> 22 - Khyber 1D</p>
+             <p className='text-sm'> 5900 Balcones Drive, STE 100</p>
+             <p className='text-sm'>Austin, TX 78731</p>
              </div>
            
 
@@ -57,8 +58,8 @@ const Footer = () => {
             <div className='flex items-center pt-4   flex-col '>
              <h1 className='text-2xl pb-4 font-bold text-primary ' > Email Us</h1>
             
-             <p className='text-sm'> dummyemail@gmail.com</p>
-             <p className='text-sm'> dummyemail@gmail.com</p>
+             <p className='text-sm'> info@medicotechllc.com</p>
+             {/* <p className='text-sm'> </p> */}
              
           
 
@@ -106,10 +107,8 @@ const Footer = () => {
 
 <div className='flex-col flex md:flex-row space-y-3 md:space-y-0  md:px-10 py-4'>
               <div className='flex md:w-1/3  text-primary font-bold gap-2 items-center '>
-              <MdOutlineHealthAndSafety color='' size={44} />
-            <h1 className=' font-bold text-5xl'>
-              MEDICOTECH
-            </h1>
+              
+              <img src={medicotechlogo} alt='logo'/>
               </div>
               <div className='flex-col md:w-1/3 gap-4 px-2 text-primary  items-center '>
                 <h1 className='text-xl font-bold md:text-left text-center pb-6'> Main Menu</h1>
@@ -126,15 +125,15 @@ const Footer = () => {
               </div>
               <div className=' items-flex-col md:w-1/3 gap-4 px-2 text-primary  items-center'>
               <h1 className='text-xl font-bold  text-center md:text-left pb-6'> Contact Us</h1>
-               <div className='flex gap-2 items-center '> <IoLocationOutline />   <h1 className='py-1'> Islamabad,DHA</h1> </div>
+               <div className='flex gap-2 items-center '> <IoLocationOutline />   <h1 className='py-1'> 5900 Balcones Drive, STE 100 Austin, TX 78731</h1> </div>
               <div  className='flex gap-2 items-center'> <FaPhoneAlt /> <h1  className='py-1'> 0313 21313312</h1></div>
-                <div className='flex gap-2 items-center'><IoMdMail/>  <h1  className='py-1'> info@mediotech.com</h1></div>
+                <div className='flex gap-2 items-center'><IoMdMail/>  <h1  className='py-1'> info@medicotechllc.com</h1></div>
                
               </div>
             </div>
 
 
-<p className='bg-white py-8 md:pt-0 md:px-0 px-6 pt-2 text-sm md:text-md text-center '> © 2024 MEDICOTECH. All rights reserved. Powered by MoxCreative</p>
+{/* <p className='bg-white py-8 md:pt-0 md:px-0 px-6 pt-2 text-sm md:text-md text-center '> © 2024 MEDICOTECH. All rights reserved.</p> */}
 
     </div>
    
