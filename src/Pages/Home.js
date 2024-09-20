@@ -9,6 +9,8 @@ import Testimonials from '../Components/Home/Testimonials'
 import Partner from '../Components/Home/Partner';
 import Blog from '../Components/Home/Blog';
 import Footer from '../Components/Footer';
+import Stats from '../Components/Home/Stats';
+import ConsentForm from '../Components/Home/ConsentForm';
 
 
 export const Home = () => {
@@ -40,20 +42,24 @@ export const Home = () => {
         </div>
       </div>
 
+      {/* stats */}
+      <Stats/>
+      
+
       {/* About Us */}
       <div className='flex flex-col pt-6 md:flex-row justify-center gap-4 lg:gap-8'>  
         <div className='flex  flex-col  md:flex-row py-10 md:gap-12 gap-6 px-4'>
           <div className='text-primary flex flex-col gap-4 font-bold  items-center shadow-lg  rounded-lg  md:p-12 md:pb-6 py-8 px-8'>
             <AiOutlineSafety size={72} />
             <h1 className='text-2xl  '>Extra Care</h1>
-            <p className='text-gray-500'> Your Health is Our Priority</p>
+            <p className='text-gray-500'> Your practice and our solutions</p>
           </div>
           <div className='text-primary flex flex-col gap-4 font-bold  items-center shadow-lg  rounded-lg md:p-12 md:pb-6 py-8  px-8'>
 
             <TbMedicineSyrup size={72} />
 
-            <h1 className='text-2xl  '>Online Medicine</h1>
-            <p className='text-gray-500'> We Provide Easy Service</p>
+            <h1 className='text-2xl  '>24/7 solutions</h1>
+            <p className='text-gray-500'> We provide accurate and timely solutions</p>
           </div>
 
 
@@ -64,14 +70,17 @@ export const Home = () => {
 
               <TfiHeadphoneAlt size={72} />
 
-              <h1 className='text-xl md:text-3xl lg:text-4xl pt-6 '>69969696969</h1>
-              <p className=''>24 Hours Emergency Call</p>
+              <h1 className='text-xl md:text-2xl  '>+1 727 353 2939</h1>
+              <h1 className='text-xl md:text-2xl   '>info@medicotechllc.com</h1>
+              <p className=''>Speak to a specialist</p>
             </div>
           </div>
 
         </div>
 
       </div>
+      
+
       <div className='pb-20' >
         <div className='md:pl-32'>
           <div className='md::pl-96 -mb-32 pt-2'>
@@ -98,10 +107,10 @@ export const Home = () => {
               ABOUT US
             </h1>
             <h1 className='text-3xl md:text-5xl text-primary md:text-left text-center font-bold tracking-wider'>
-            Boost Your Revenue With Our Expert<span className='bg-white text-secondary md:bg-transparent' >  Medical Billing Company</span>
+            Boost your revenue with our accurate &<span className='bg-white text-secondary md:bg-transparent' >  timely medical billing solutions.</span>
             </h1>
             <p className='bg-white hidden md:flex '>
-            Welcome to our Medio Tech, your trusted partner in medical billing/coding and credentialing services. With a commitment to excellence and a passion for healthcare, we are dedicated to simplifying the administrative complexities that medical professionals face in their practices. </p>
+            Welcome to Medico Tech, LLC, your trusted partner in medical billing/coding and credentialing services. With a commitment to excellence and a passion for healthcare, we are dedicated to simplifying the administrative complexities that medical professionals face in their practices. </p>
             <p className='hidden md:flex'>
            Our main focus is on Individual providers, clinics, hospitals, medical practices, nursing facilities and DME suppliers. Our goal is to optimize your revenue cycle, streamline your administrative processes, and ensure your practice remains compliant with ever-evolving regulations.</p>
             <div className='hidden md:block pt-10 pl-8'>
@@ -129,6 +138,7 @@ export const Home = () => {
 
 
       </div>
+      <ConsentForm/>
       <div className=''>
         <Services />
 
@@ -136,6 +146,7 @@ export const Home = () => {
       {/* <div className='md:pb-8'>
         <Achievements />
       </div> */}
+      
       <div>
         <Testimonials/>
       </div>

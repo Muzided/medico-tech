@@ -52,6 +52,13 @@ const Navbar = () => {
 
           <div className='flex  gap-6 xl:gap-10 items-center  '>
             <NavLink to={'/'}>    <h1 className='text-primary font-bold text-sm tracking-wider  hover:text-secondary  border-white border-b-2 hover:border-secondary cursor-pointer  py-6'>Home </h1></NavLink>
+            <div onMouseEnter={handleMenu1} onMouseLeave={handleMenu1} className='flex-col  space-y-5'>
+              <div className=' flex items-center gap-2 text-primary hover:text-secondary border-white border-b-2  hover:border-secondary' >
+                <NavLink to={'/topBenefits'}><h1 className=' font-bold text-sm tracking-wider   cursor-pointer py-6'>About Us</h1>
+                </NavLink>   {/* <FaCaretDown /> */}
+              </div>
+              {/* {menu1 ? <Menu1 className="" /> : null} */}
+            </div>
            
 
             <div onMouseEnter={handleMenu2} onMouseLeave={handleMenu2} className='flex-col  space-y-5'>
@@ -62,13 +69,7 @@ const Navbar = () => {
               {menu2 ? <Menu2 className="" /> : null}
             </div>
             <NavLink to={'/specialities'}>  <h1 className='text-primary font-bold text-sm tracking-wider  hover:text-secondary  border-white border-b-2 hover:border-secondary cursor-pointer  py-6'>Specialities </h1></NavLink>
-            <div onMouseEnter={handleMenu1} onMouseLeave={handleMenu1} className='flex-col  space-y-5'>
-              <div className=' flex items-center gap-2 text-primary hover:text-secondary border-white border-b-2  hover:border-secondary' >
-                <NavLink to={'/topBenefits'}><h1 className=' font-bold text-sm tracking-wider   cursor-pointer py-6'>About Us</h1>
-                </NavLink>   {/* <FaCaretDown /> */}
-              </div>
-              {/* {menu1 ? <Menu1 className="" /> : null} */}
-            </div>
+            
             <NavLink to={'/contact'}> <h1 className='text-primary font-bold text-sm tracking-wider  hover:text-secondary  border-white border-b-2 hover:border-secondary cursor-pointer py-6'>Contact Us  </h1></NavLink>
             {/* <div onMouseEnter={handleMenu3} onMouseLeave={handleMenu3} className='flex-col  space-y-5'>
               <div className=' flex items-center gap-2  text-primary hover:text-[#21C063]  border-white border-b-2 hover:border-[#21C063]' >
@@ -78,9 +79,9 @@ const Navbar = () => {
               {menu3 ? <Menu3 className="" /> : null}
             </div> */}
 
-            <div className='bg-primary px-6 py-2 rounded-md text-white hover:bg-secondary font-semibold'>
-              <button className='tracking-wide text-md '><NavLink to={'/Appointment'}>Book Appointment</NavLink> </button>
-            </div>
+            {/* <div className='bg-primary px-6 py-2 rounded-md text-white hover:bg-secondary font-semibold'>
+              <button className='tracking-wide text-md '><NavLink to={'/Appointment'}>Book a Consultation</NavLink> </button>
+            </div> */}
           </div>
 
         </div>

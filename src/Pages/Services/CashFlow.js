@@ -20,7 +20,7 @@ D3="Customized to individual needs, our service enhances revenue streams for las
   
 
 </div>
-<Talk/>
+{/* <Talk/> */}
   <Connect/>
     </div>
    

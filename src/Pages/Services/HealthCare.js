@@ -18,7 +18,7 @@ D3='MedicoTech leverages advanced technology, from electronic records to telemed
 
 
 </div>
-<Talk/>
+{/* <Talk/> */}
 <Connect/>
     </div>
   

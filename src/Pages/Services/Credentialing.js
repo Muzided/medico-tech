@@ -2,6 +2,7 @@ import React from 'react'
 import KeyFeatures from './KeyFeatures'
 import Connect from '../../Components/Contact/Connect'
 import Talk from '../../Components/Talk'
+import ConsentForm from '../../Components/Home/ConsentForm'
 const Credentialing = () => {
   return (
     <div>
@@ -21,7 +22,7 @@ D3="MedicoTech's Credentialing/Enrollment Service provides a seamless pathway, g
   
 </div>
 <Talk/>
-<Connect/>
+<ConsentForm/>
     </div>
     )
 }

@@ -19,7 +19,7 @@ D3="MedicoTech's Email/SMS Support optimizes information dissemination, ensuring
 " />
 
 </div>
-<Talk/>
+{/* <Talk/> */}
 <Connect/>
     </div>
     

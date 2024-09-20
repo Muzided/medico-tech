@@ -2,6 +2,7 @@ import React from 'react'
 import KeyFeatures from './KeyFeatures'
 import Connect from '../../Components/Contact/Connect'
 import Talk from '../../Components/Talk'
+import ConsentForm from '../../Components/Home/ConsentForm'
 const MedicalCoding = () => {
   return (
 
@@ -17,7 +18,7 @@ D2="Our coding service prioritizes adherence to regulatory standards, reducing c
 D3="MedioTech's expert coders navigate complex medical documentation swiftly, optimizing coding efficiency to support healthcare providers in maximizing revenue streams." />
 
   <Talk/>
-<Connect/>
+<ConsentForm/>
 </div>
     </div>
     

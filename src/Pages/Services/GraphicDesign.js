@@ -18,8 +18,8 @@ We customize designs to match your unique brand identity, conveying messages eff
 D3="Our designs encompass a wide range of styles and formats, staying at the forefront of industry trends to provide innovative solutions for diverse graphic needs." />
 
 </div>
-
-<Talk/>
+{/* 
+<Talk/> */}
 <Connect/>
     </div>
   

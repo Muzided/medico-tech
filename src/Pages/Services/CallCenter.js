@@ -21,7 +21,7 @@ D3="MedicoTech's Call Center Service offers versatile communication channels, in
 
   
 </div>
-<Talk/>
+{/* <Talk/> */}
 <Connect/>
     </div>
    

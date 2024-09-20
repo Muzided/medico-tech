@@ -1,8 +1,8 @@
 
 import './App.css';
-import { useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import Navbar from './Components/Navbar'
-import{Route,Routes} from "react-router-dom"
+import{Route,Routes,useLocation } from "react-router-dom"
 import Home from './Pages/Home'
 import Contact from './Pages/Contact';
 import Footer from './Components/Footer';
@@ -30,11 +30,21 @@ import TopBenefits from './Pages/TopBenefits';
 import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
 
 function App() {
+  function ScrollToTop() {
+    const { pathname } = useLocation();
+  
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+  
+    return null;
+  }
 
   return (
     <>
       {/* NavBar */}
       <Navbar/>
+      <ScrollToTop />
      <Routes>
       <Route path='/' element={<Home/>} />
       <Route path='/contact' element={<Contact/>}/>

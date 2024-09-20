@@ -1,72 +1,20 @@
-import React from 'react'
-import { IoMdMail } from "react-icons/io";
-import { IoLocationOutline } from "react-icons/io5";
-import { FaPhoneAlt } from "react-icons/fa";
+import React from 'react';
+
 const GoogleMap = () => {
   return (
-    <div className='bg-mem5 hidden bg-no-repeat'>
-        <div className='  lg:justify-center flex lg:pt-20 pb-6 md:pb-10 px-2 lg:pl-48'>
-        <div className='flex bg-red-100 lg:px-12 lg:py-12 px-4 pb-8 pt-16  lg:w-2/5 bg-whit shadow-lg flex-col'>
-             <h1  className='text-sm md:text-lg tracking-wider font-bold text-[#08485E] pb-2 md:pb-4'> BRANCH</h1>
-             <h1 className='pb-2 text-2xl md:text-6xl font-bold    tracking-wide text-black/80'>
-                Get in Direction
-             </h1>
-             <p className='text-[#88DDAB]'><span className=' text-[#1CA552] text-lg'>_______</span>__________________________________</p>
-             <div className=' bg-white text-sm md:text-md md:pt-6 pt-4'>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-                </p>
-             </div>
-             <div className='flex flex-col  gap-3 bg-white  text-[#0C5A23] pt-4 py-6'>
-              <h1 className='font-bold text-black/80 text-lg'> Location1</h1>
-                     <div className='flex items-center gap-5'>
-                     <IoLocationOutline  size={20}/>
-                     <p className='text-black'> Dummy Location</p>
-                     </div>
-                     <div className='flex items-center gap-5'>
-                     <FaPhoneAlt  size={20}/>
-                     <div className='flex flex-col'>
-                     <p className='text-black'>123132131</p>
-                     <p className='text-black'>123132131</p>
-                     </div>
-                     
-                     </div>
-                     <div className='flex items-center gap-5' >
-                     <IoMdMail  size={20}/>
-                     <div className='flex flex-col'>
-                     <p className='text-black'>company@gmail.com</p>
-                     <p className='text-black'>company@gmail.com</p>
-                     </div>
-                   
-                     </div>
-        </div>
-        <div className='flex flex-col  gap-3 bg-white  text-[#0C5A23] pt-2 py-6'>
-              <h1 className='font-bold text-black/80 text-lg'> Location2</h1>
-                     <div className='flex items-center gap-5'>
-                     <IoLocationOutline  size={20}/>
-                     <p className='text-black'> Dummy Location</p>
-                     </div>
-                     <div className='flex items-center gap-5'>
-                     <FaPhoneAlt  size={20}/>
-                     <div className='flex flex-col'>
-                     <p className='text-black'>123132131</p>
-                     <p className='text-black'>123132131</p>
-                     </div>
-                     
-                     </div>
-                     <div className='flex items-center gap-5' >
-                     <IoMdMail  size={20}/>
-                     <div className='flex flex-col'>
-                     <p className='text-black'>company@gmail.com</p>
-                     <p className='text-black'>company@gmail.com</p>
-                     </div>
-                   
-                     </div>
-        </div>
-             </div>
-        </div>
+    <div className='p-28'>
+      <div
+      className='pb-4 text-5xl font-bold   tracking-wide  text-center text-[#08485E] ' >Get directions in</div>
+    <div className="relative overflow-hidden" style={{ paddingBottom: "56.25%" }}>
+      <iframe 
+        className="absolute inset-0 w-full h-full" 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3527.8747832312197!2d-82.64075712467123!3d27.84438637610429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2e7ab04da46bf%3A0x3379bec16791fa7e!2sFlorida%20Registered%20Agent%20LLC!5e0!3m2!1sen!2s!4v1711263873209!5m2!1sen!2s" 
+        allowfullscreen="" 
+        loading="lazy"
+      ></iframe>
     </div>
-  )
-}
+    </div>
+  );
+};
 
-export default GoogleMap
+export default GoogleMap;

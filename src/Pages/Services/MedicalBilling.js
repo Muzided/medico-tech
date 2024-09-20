@@ -2,6 +2,7 @@ import React from 'react'
 import Connect from '../../Components/Contact/Connect'
 import KeyFeatures from './KeyFeatures'
 import Talk from '../../Components/Talk'
+import ConsentForm from '../../Components/Home/ConsentForm'
 
 const MedicalBilling = () => {
   return (
@@ -19,7 +20,7 @@ D3='Leveraging advanced technology, MedicoTech enhances billing operations with 
 
 
 </div><Talk/>
-<Connect/>
+<ConsentForm/>
     </div>
     
   )

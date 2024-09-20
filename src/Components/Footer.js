@@ -38,8 +38,8 @@ const Footer = () => {
             <div className='flex items-center pt-4 text-center   flex-col '>
              <h1 className='text-2xl pb-4 text-primary font-bold ' > Head Office</h1>
              <div className='flex lg:flex-col'>
-             <p className='text-sm'> 5900 Balcones Drive, STE 100</p>
-             <p className='text-sm'>Austin, TX 78731</p>
+             <p className='text-sm'> 7901 4TH ST N STE 300</p>
+             <p className='text-sm'>St. Petersburg, FL 33702</p>
              </div>
            
 
@@ -75,8 +75,7 @@ const Footer = () => {
             </div>
             <div className='flex items-center pt-4 flex-col '>
              <h1 className='text-2xl pb-4 text-primary font-bold' > Call Us</h1>
-             <p> 11223344556677</p>
-             <p> 88776611223344</p>
+             <p> +1 727 353 2939</p>
 
             </div>
             
@@ -112,11 +111,11 @@ const Footer = () => {
               </div>
               <div className='flex-col md:w-1/3 gap-4 px-2 text-primary  items-center '>
                 <h1 className='text-xl font-bold md:text-left text-center pb-6'> Main Menu</h1>
-          <div className='flex gap-2 items-center'><IoChevronForward />     <h1 className='cursor-pointer py-1'> Home</h1></div>
+          <div className='flex gap-2 items-center'><IoChevronForward />     <h1 className='cursor-pointer py-1'><NavLink to={'/'}> Home</NavLink></h1></div>
           <div className='flex gap-2 items-center'><IoChevronForward />    <NavLink to='/topBenefits'>   <h1 className='cursor-pointer py-1'> About Us</h1> </NavLink>  </div>  
                 <div className='flex gap-2 items-center'><IoChevronForward />     <h1 className='cursor-pointer py-1'> Services</h1></div>
             <div className='flex gap-2 items-center'><IoChevronForward /> <NavLink   to='/specialities' > <h1 className='cursor-pointer py-1'> Specialities</h1></NavLink>   </div>       
-           <div className='flex gap-2 items-center'><IoChevronForward />  <NavLink to={'/contact'}> <h1 className='cursor-pointer py-1'> Contact</h1> </NavLink>  </div>
+           {/* <div className='flex gap-2 items-center'><IoChevronForward />  <NavLink to={'/contact'}> <h1 className='cursor-pointer py-1'> Contact</h1> </NavLink>  </div> */}
             
           
                 
@@ -125,15 +124,15 @@ const Footer = () => {
               </div>
               <div className=' items-flex-col md:w-1/3 gap-4 px-2 text-primary  items-center'>
               <h1 className='text-xl font-bold  text-center md:text-left pb-6'> Contact Us</h1>
-               <div className='flex gap-2 items-center '> <IoLocationOutline />   <h1 className='py-1'> 5900 Balcones Drive, STE 100 Austin, TX 78731</h1> </div>
-              <div  className='flex gap-2 items-center'> <FaPhoneAlt /> <h1  className='py-1'> 0313 21313312</h1></div>
+               <div className='flex gap-2 items-center '> <IoLocationOutline />   <h1 className='py-1'> 7901 4TH ST N STE 300 St. Petersburg, FL 33702</h1> </div>
+              <div  className='flex gap-2 items-center'> <FaPhoneAlt /> <h1  className='py-1'> +1 727 353 2939</h1></div>
                 <div className='flex gap-2 items-center'><IoMdMail/>  <h1  className='py-1'> info@medicotechllc.com</h1></div>
                
               </div>
             </div>
 
 
-{/* <p className='bg-white py-8 md:pt-0 md:px-0 px-6 pt-2 text-sm md:text-md text-center '> © 2024 MEDICOTECH. All rights reserved.</p> */}
+<p className='bg-white py-8 md:pt-0 md:px-0 px-6 pt-2 text-primary  text-sm md:text-base tracking-wider text-center '> © 2017 MEDICOTECH. All rights reserved.</p>
 
     </div>
    

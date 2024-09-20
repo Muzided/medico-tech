@@ -72,7 +72,7 @@ const Connect = () => {
                            <div className='mt-5'>
                               <div class="mb-6">
                                  <label for="large-input" class="block mb-2 font-bold  text-md text-black dark:text-white">Message</label>
-                                 <textarea required cols="40" rows="5" type="text" id="message" onChange={handleChange} placeholder='Message' class="bg-[#CAF0F8] block w-full p-4 text-gray-900 border rounded-md sm:text-md  focus:border-[#8CDCAD] dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
+                                 <textarea required cols="40" rows="5" type="text" id="message" onChange={handleChange} placeholder='Message' class="bg-[#CAF0F8] block w-full p-4 text-gray-900 border rounded-md sm:text-md  focus:border-[#8CDCAD]  dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
                               </div>
 
                            </div>

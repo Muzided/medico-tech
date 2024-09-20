@@ -2,6 +2,7 @@ import React from 'react'
 import KeyFeatures from './KeyFeatures'
 import Connect from '../../Components/Contact/Connect'
 import Talk from '../../Components/Talk'
+import ConsentForm from '../../Components/Home/ConsentForm'
 const PatientAR = () => {
   return (
     <div>
@@ -24,7 +25,7 @@ D3="MedioTech's Help-Desk anticipates and resolves patient inquiries, contributi
   
 </div>
 <Talk/>
-<Connect/>
+<ConsentForm/>
     </div>
    
   )

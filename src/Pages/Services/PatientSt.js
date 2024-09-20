@@ -2,6 +2,7 @@ import React from 'react'
 import KeyFeatures from './KeyFeatures'
 import Connect from '../../Components/Contact/Connect'
 import Talk from '../../Components/Talk'
+import ConsentForm from '../../Components/Home/ConsentForm'
 const PatientSt = () => {
   return (
     <div>
@@ -21,7 +22,7 @@ D3="MedicoTech's Patient Statements Service facilitates efficient financial mana
 
 </div>
 <Talk/>
-<Connect/>
+<ConsentForm/>
     </div>
     
   )

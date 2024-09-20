@@ -20,7 +20,7 @@ D3="MedicoTech's Help-Desk anticipates and resolves patient inquiries, contribut
 " />
 
 </div>
-<Talk/>
+{/* <Talk/> */}
 <Connect/>
     </div>
     
