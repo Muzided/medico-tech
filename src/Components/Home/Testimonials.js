@@ -21,19 +21,19 @@ const Testimonials = () => {
   };
   const data = [
     {
-      name: "anonymous",
+      name: "Dr. S Vashish",
       img: anomuser,
       testimonial:'We have been using  Medico Tech for medical billing and Credentialing services. We highly recommend them. We received timely response. and someone is always there for us to provide excellence customer satisfaction.'
 
     },
     {
-      name: "anonymous",
+      name: "Dr. A Bell",
       img: anomuser,
       testimonial:'Medico Tech is a top-notch billing, coding, and credentialing company. They provide tremendous services , and I am so grateful for the outstanding work they have provided thus far for my behavioral health practice.'
 
     },
     {
-      name: "anonymous",
+      name: "Mrs. D Johnson",
       img: anomuser,
       testimonial:'Outstanding billing & credentialing services! they get provider enrollment accurately and timely, Special thanks to Haider and Richard and all the team in Medico Tech! and I highly recommend them.'
 
@@ -63,7 +63,7 @@ const Testimonials = () => {
                       <div className='flex pt-8'>
                         <img src={item.img} alt='?' className='rounded-full w-24 h-24  ' />
                         <div className='flex-col px-4 pt-6'>
-                          <h1 className='text-xl font-bold'> {item.name}</h1>
+                          <h1 className='text-xl font-bold '> {item.name}</h1>
                           
                         </div>
                         <div className='pl-10 pt-10'>
