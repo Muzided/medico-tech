@@ -69,7 +69,8 @@ const Navbar = () => {
               {menu2 ? <Menu2 className="" /> : null}
             </div>
             <NavLink to={'/specialities'}>  <h1 className='text-primary font-bold text-sm tracking-wider  hover:text-secondary  border-white border-b-2 hover:border-secondary cursor-pointer  py-6'>Specialities </h1></NavLink>
-            
+            <NavLink to={'/Privacy'}> <h1 className='text-primary font-bold text-sm tracking-wider  hover:text-secondary  border-white border-b-2 hover:border-secondary cursor-pointer py-6'>Privacy Policy  </h1></NavLink>
+           
             <NavLink to={'/contact'}> <h1 className='text-primary font-bold text-sm tracking-wider  hover:text-secondary  border-white border-b-2 hover:border-secondary cursor-pointer py-6'>Contact Us  </h1></NavLink>
             {/* <div onMouseEnter={handleMenu3} onMouseLeave={handleMenu3} className='flex-col  space-y-5'>
               <div className=' flex items-center gap-2  text-primary hover:text-[#21C063]  border-white border-b-2 hover:border-[#21C063]' >

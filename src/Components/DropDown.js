@@ -34,9 +34,11 @@ const DropDown = () => {
   <FaCaretDown color="green" />
   </div>
   {  menu3? <Menu3/> : null} */}
-   
+    <div className=' text-primary flex items-center gap-2'>
  
-    
+   <NavLink  to={'/Privacy'}><h1 className='text-cGreen font-bold text-sm'>Privacy Policy</h1></NavLink> 
+ 
+    </div>
     </div>
     </div>
   

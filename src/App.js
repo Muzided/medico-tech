@@ -28,6 +28,7 @@ import TopBenefits from './Pages/TopBenefits';
 
 //tawk-to live chat
 import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
+import PrivacyPolicy from './Pages/PrivacyPolicy';
 
 function App() {
   function ScrollToTop() {
@@ -69,6 +70,7 @@ function App() {
       <Route path='/specialities' element={<Specialities/> } />
       <Route path='/Appointment'  element={<Appointment/>}        />
       <Route path='/topBenefits' element={<TopBenefits/>} />
+      <Route path='/Privacy' element={<PrivacyPolicy/>} />
      </Routes>
       {/* Footer */}
       <Footer/> 
